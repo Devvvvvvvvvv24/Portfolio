@@ -22,15 +22,15 @@ export default function ProjectCard({
     return (
         <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border border-gray-200 dark:border-gray-700">
             {/* Project Image */}
-            <div className="relative w-full h-56">
+            <div className="relative w-full h-64 rounded-t-xl overflow-hidden">
                 <Image
                     src={image}
                     alt={title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-t-xl"
+                    fill
+                    className="object-cover"
                 />
             </div>
+
 
             {/* Project Content */}
             <div className="p-6">
