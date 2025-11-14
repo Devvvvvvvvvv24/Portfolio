@@ -16,7 +16,7 @@ export default function Hero() {
                    bg-gradient-to-r from-blue-500 to-purple-600 
                    bg-clip-text text-transparent"
             >
-                Hi, I'm Varun Sammal 👋
+                Hi, I'm Dev Sharma 👋
             </motion.h1>
 
             <motion.p
