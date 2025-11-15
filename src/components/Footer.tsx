@@ -1,36 +1,37 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaEnvelope } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
 import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
 export default function Footer() {
     const icons = [
         {
-            href: "mailto:varunsammal90@gmail.com",
+            href: "mailto:devvsharmaa06@gmail.com",
             icon: <FaEnvelope size={28} />,
             label: "Gmail",
             color: "text-red-500",
         },
         {
-            href: "https://github.com/HackStreetBoy11",
+            href: "https://github.com/Devvvvvvvvvv24",
             icon: <FaGithub size={28} />,
             label: "GitHub",
             color: "text-gray-900 dark:text-white",
         },
         {
-            href: "https://www.linkedin.com/in/varun-sammal-771122256/",
-            icon: <FaLinkedin size={28} />,
-            label: "LinkedIn",
+            href: "https://www.geeksforgeeks.org/user/devdevioxvk/",
+            icon: <SiGeeksforgeeks size={28} />,
+            label: "Geeksforgeeks",
             color: "text-blue-600",
         },
         {
-            href: "https://leetcode.com/u/Varun_Sammal446/",
+            href: "https://leetcode.com/u/devvsharma___/",
             icon: <SiLeetcode size={28} />,
             label: "LeetCode",
             color: "text-yellow-500",
         },
         {
-            href: "https://codeforces.com/profile/varun_sammal",
+            href: "https://codeforces.com/profile/Devvvvv",
             icon: <SiCodeforces size={28} />,
             label: "Codeforces",
             color: "text-blue-500",
@@ -67,7 +68,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-6 text-sm text-gray-600 dark:text-gray-400">
-                © {new Date().getFullYear()} <span className="font-medium">Varun Sammal</span>. All rights reserved.
+                © {new Date().getFullYear()} <span className="font-medium">Dev Sahrma</span>. All rights reserved.
             </p>
         </motion.footer>
     );

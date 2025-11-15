@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
 import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
 export default function Hero() {
@@ -70,7 +71,7 @@ export default function Hero() {
                 className="flex gap-6 mt-10"
             >
                 <a
-                    href="https://github.com/HackStreetBoy11"
+                    href="https://github.com/Devvvvvvvvvv24"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition text-3xl"
@@ -78,15 +79,15 @@ export default function Hero() {
                     <FaGithub />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/varun-sammal-771122256/"
+                    href="https://www.geeksforgeeks.org/user/devdevioxvk/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition text-3xl"
                 >
-                    <FaLinkedin />
+                   <SiGeeksforgeeks />
                 </a>
                 <a
-                    href="https://leetcode.com/u/Varun_Sammal446/"
+                    href="https://leetcode.com/u/devvsharma___/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 dark:text-gray-300 hover:text-yellow-500 transition text-3xl"
@@ -94,7 +95,7 @@ export default function Hero() {
                     <SiLeetcode />
                 </a>
                 <a
-                    href="https://codeforces.com/profile/varun_sammal"
+                    href="https://codeforces.com/profile/Devvvvv"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 dark:text-gray-300 hover:text-red-500 transition text-3xl"
