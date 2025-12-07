@@ -20,7 +20,7 @@ export default function About() {
         },
         {
             title: "🎯 Contest Performance",
-            details: "Regular participant on LeetCode & CodeChef with **consistent sub-2k rankings**.",
+            details: "Regular participant on LeetCode & CodeChef with **consistent sub-1k rankings**.",
         },
         {
             title: "👨‍🏫 Leadership & Mentorship",
