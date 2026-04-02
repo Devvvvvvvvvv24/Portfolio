@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { SiGeeksforgeeks } from "react-icons/si";
-import { SiLeetcode, SiCodeforces } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 
 export default function Hero() {
     return (
@@ -17,7 +17,7 @@ export default function Hero() {
                    bg-gradient-to-r from-blue-500 to-purple-600 
                    bg-clip-text text-transparent"
             >
-                Hi, I'm Dev Sharma 👋
+                Hi, I'm DEV SHARMA👋
             </motion.h1>
 
             <motion.p
@@ -27,40 +27,41 @@ export default function Hero() {
                 className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-2xl"
             >
                 A passionate Full-Stack Developer exploring the intersection of
-                <span className="font-semibold text-blue-600 dark:text-blue-400"> web development, cloud computing,</span>
+                <span className="font-semibold text-blue-600 dark:text-blue-400"> web development, machine learning </span>
                 and <span className="font-semibold text-purple-600 dark:text-purple-400"> AI technologies.</span>
                 I love crafting intelligent, scalable, and beautiful digital experiences.
             </motion.p>
 
-           {/* CTA Buttons */}
-<motion.div
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ delay: 0.4, duration: 0.8 }}
-    className="mt-8 flex flex-col sm:flex-row gap-4"
->
-    <motion.a
-        href="#projects"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium 
+            {/* CTA Buttons */}
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4, duration: 0.8 }}
+                className="mt-8 flex flex-col sm:flex-row gap-4"
+            >
+                <motion.a
+                    href="#projects"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium 
                    hover:bg-blue-700 transition shadow-lg text-center"
-    >
-        View My Work 🚀
-    </motion.a>
+                >
+                    View My Work 🚀
+                </motion.a>
 
-    <motion.a
-        href="/resume.pdf"
-        download
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium 
+                <motion.a
+                    href="/resume.pdf"
+                    download
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium 
                    dark:text-blue-400 dark:border-blue-400
                    hover:bg-blue-600 hover:text-white transition shadow text-center"
-    >
-        Download Resume 📄
-    </motion.a>
-</motion.div>
+                >
+                    Download Resume 📄
+                </motion.a>
+            </motion.div>
+
 
 
             {/* Social Icons */}
@@ -79,14 +80,6 @@ export default function Hero() {
                     <FaGithub />
                 </a>
                 <a
-                    href="https://www.geeksforgeeks.org/user/devdevioxvk/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition text-3xl"
-                >
-                   <SiGeeksforgeeks />
-                </a>
-                <a
                     href="https://leetcode.com/u/devvsharma___/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -95,14 +88,19 @@ export default function Hero() {
                     <SiLeetcode />
                 </a>
                 <a
-                    href="https://codeforces.com/profile/Devvvvv"
+                    href="https://www.geeksforgeeks.org/user/devdevioxvk/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 dark:text-gray-300 hover:text-red-500 transition text-3xl"
                 >
-                    <SiCodeforces />
+                     <SiGeeksforgeeks />
                 </a>
             </motion.div>
         </section>
     );
 }
+
+
+
+
+

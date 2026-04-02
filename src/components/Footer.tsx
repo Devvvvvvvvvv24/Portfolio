@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import { FaGithub, FaEnvelope } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
-import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
 export default function Footer() {
     const icons = [
@@ -20,8 +20,8 @@ export default function Footer() {
         },
         {
             href: "https://www.geeksforgeeks.org/user/devdevioxvk/",
-            icon: <SiGeeksforgeeks size={28} />,
-            label: "Geeksforgeeks",
+            icon: <SiGeeksforgeeks size={28}/>,
+            label: "GFG",
             color: "text-blue-600",
         },
         {
@@ -29,13 +29,7 @@ export default function Footer() {
             icon: <SiLeetcode size={28} />,
             label: "LeetCode",
             color: "text-yellow-500",
-        },
-        {
-            href: "https://codeforces.com/profile/Devvvvv",
-            icon: <SiCodeforces size={28} />,
-            label: "Codeforces",
-            color: "text-blue-500",
-        },
+        }
     ];
 
     return (
@@ -68,8 +62,12 @@ export default function Footer() {
             </div>
 
             <p className="mt-6 text-sm text-gray-600 dark:text-gray-400">
-                © {new Date().getFullYear()} <span className="font-medium">Dev Sahrma</span>. All rights reserved.
+                © {new Date().getFullYear()} <span className="font-medium">Dev Sharma</span>. All rights reserved.
             </p>
         </motion.footer>
     );
 }
+
+
+
+
