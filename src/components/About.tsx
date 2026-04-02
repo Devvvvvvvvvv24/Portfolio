@@ -52,7 +52,7 @@ export default function About() {
                             >
                                 <h4 className="font-semibold text-lg text-gray-900 dark:text-white">{edu.level}</h4>
                                 <p className="text-gray-700 dark:text-gray-300">{edu.institution}</p>
-                                <p className="text-sm text-gray-600 dark:text-gray-400">{edu.board || edu.location} • {edu.year}</p>
+                                <p className="text-sm text-gray-600 dark:text-gray-400">{edu.location} • {edu.year}</p>
                                 <p className="text-blue-600 dark:text-blue-400 mt-1 font-medium">{edu.score}</p>
                             </motion.div>
                         ))}
